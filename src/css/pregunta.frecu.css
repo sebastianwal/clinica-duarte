@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2980b9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header img {
+    width: 150px;
+    height: auto;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    margin-top: 0;
+    color: #2980b9;
+  }
+  
+  section h3 {
+    color: #333;
+  }
+  
+  section p {
+    margin-bottom: 20px;
+  }
+  
+  #enviar-pregunta {
+    display: none;
+    margin-top: 10px;
+  }
+  
+  #pregunta-input:focus + #enviar-pregunta {
+    display: block;
+  }
+  
+  .btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  footer {
+    background-color: #2980b9;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin-bottom: 0;
+  }
+  
+  footer a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  footer a:hover {
+    color: #fff;
+  }
+  
+  .preguntas-frecuentes {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .preguntas-frecuentes li {
+    margin-bottom: 20px;
+  }
+  
+ #enviar-pregunta{
+    background-color: #3e8e41;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+ }
+
+  #volver {
+    background-color: #3e8e41;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #volver:hover {
+    background-color: #3e8e41;
+  }
+  
